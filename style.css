@@ -20,6 +20,8 @@ body{
     background-color: white;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -77,6 +79,7 @@ body{
     flex-flow:row wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 /*Cabeçalho/ textos*/
@@ -215,3 +218,42 @@ footer{
     color: white;
 }
 
+b{
+    color: white;
+}
+
+/*WhatsApp*/
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.whats img{
+    width: 200px;
+}
+
+.whats:hover{
+    cursor: pointer;
+}
+
+.whats-cell{
+    display: inline-block;
+    background-color: #31a72d;
+    padding: 20px 10px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.whats-cell:hover{
+    background: rgb(34, 83, 24);
+    color: green;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.whats-cell img{
+    width: 50px;
+}

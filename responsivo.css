@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media screen and (max-width:100000px){
+    .whats-cell{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1005px){
+
+    .navbar{
+        position: relative ;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .header{
+        padding-top: 40px;
+    }
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .img-headline{
+        flex: 100%;
+        text-align: center;
+    }
+
+    .whats-cell{
+        display: none;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px){
+.whats{
+    display: none;
+}
+
+.whats-cell{
+    display: block;
+    margin-top: 80px;
+}
+
+
+}
